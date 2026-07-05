@@ -34,7 +34,7 @@ DELETE  http://localhost:3000/goals/1
 ## Render Deployment
 
 Live API:
-`<PASTE YOUR RENDER URL HERE>`
+https://dfsd-front-end-development-tutorials.onrender.com/
 
 Tested endpoints:
 - GET /
