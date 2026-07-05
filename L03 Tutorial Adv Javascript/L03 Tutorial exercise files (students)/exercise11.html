@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DELETE: Remove a Post</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 p-6 font-sans">
+  <div class="max-w-2xl mx-auto bg-white p-6 rounded-xl shadow-md space-y-4">
+    <h1 class="text-2xl font-bold text-blue-700">Exercise – DELETE: Remove a Post</h1>
+
+    <input id="deleteId" type="number" placeholder="Post ID to delete" class="block border p-2 w-full rounded" />
+    <button onclick="deletePost()" class="bg-red-500 text-white px-4 py-2 rounded mt-2">Delete Post</button>
+
+    <p id="deleteMessage" class="text-green-600 mt-2"></p>
+
+        <script>
+      function deletePost() {
+        const id = document.getElementById('deleteId').value;
+
+        fetch('https://jsonplaceholder.typicode.com/posts/' + id, {
+          method: 'DELETE'
+        })
+          .then(response => {
+            if (response.ok) {
+              document.getElementById('deleteMessage').textContent = 'Post ' + id + ' deleted.';
+            }
+          });
+      }
+    </script>
+  </div>
+</body>
+</html>
