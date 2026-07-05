@@ -8,7 +8,7 @@ Aegis Lite is a beginner-friendly stock dashboard UI designed to demonstrate how
 
 ## Figma Prototype Link
 
-> **<PASTE YOUR FIGMA SHARE LINK HERE>**
+> **<[FIGMA](https://www.figma.com/design/fLDlfsIQvHLnYSNJLJrSe4/Aegis-Lite-FED-Prototype?node-id=0-1&p=f&t=4UJ3tjW8TEESz6w6-0)>**
 
 ---
 
