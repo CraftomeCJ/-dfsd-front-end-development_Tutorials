@@ -7,7 +7,7 @@ let goals = [
 ];
 let nextId = 3;
 
-export default function handler(req, res) {
+module.exports = function handler(req, res) {
   const method = req.method;
 
   // GET /api/goals — return all goals
