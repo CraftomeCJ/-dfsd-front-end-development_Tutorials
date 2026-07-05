@@ -46,7 +46,7 @@ Tested endpoints:
 ## Vercel Deployment
 
 Live API:
-`<PASTE YOUR VERCEL URL HERE>/api/goals`
+https://dfsd-front-end-development-tutorial.vercel.app/api/goals
 
 Tested methods:
 - GET
